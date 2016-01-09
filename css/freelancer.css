@@ -16,6 +16,23 @@ p.small {
     font-size: 16px;
 }
 
+/*navbar colors*/
+.navbar {
+    background-color: #000;
+}
+.nav.navbar-nav.navbar-right>li.page-scroll.active>a {
+    background-color: #181;
+}
+.nav.navbar-nav.navbar-right>li.page-scroll>a{
+    color: #fff;
+}
+.nav.navbar-nav.navbar-right>li.page-scroll>a:hover,
+.navbar-header.page-scroll>a:hover.navbar-brand
+{
+    color: #ddd;
+}
+/*end modified navbar colors*/
+
 a,
 a:hover,
 a:focus,
