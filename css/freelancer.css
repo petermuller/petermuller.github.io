@@ -43,8 +43,12 @@ p.small {
 
 /*modified text colors*/
 #portfolio>.container,
+#experience>.container,
+#interests>.container,
+#status>.container,
 #contact>.container{
-    color: #07b;
+    /*color: #07b;*/
+    color: #000;
 }
 /*end modified text colors*/
 
