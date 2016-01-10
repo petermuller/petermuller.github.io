@@ -21,13 +21,16 @@ p.small {
     background-color: #000;
 }
 .nav.navbar-nav.navbar-right>li.page-scroll.active>a {
-    background-color: #181;
+    /*Experimented with green. Undecided if I like it or not*/
+    /*background-color: #181;*/
+    background-color: #07b;
 }
 .nav.navbar-nav.navbar-right>li.page-scroll>a{
     color: #fff;
 }
 .nav.navbar-nav.navbar-right>li.page-scroll>a:hover,
-.navbar-header.page-scroll>a:hover.navbar-brand
+.navbar-header.page-scroll>a:hover.navbar-brand,
+.navbar-header.page-scroll>a:focus.navbar-brand
 {
     color: #ddd;
 }
@@ -39,7 +42,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #CDBDAE;
+    color: #07b;
 }
 
 h1,
@@ -80,7 +83,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #CDBDAE;
+    background-color: #07b;
 }
 
 hr.star-primary {
@@ -99,7 +102,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #CDBDAE;
+    background: #07b;
 }
 
 header .container {
@@ -198,7 +201,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #CDBDAE;
+    background: #07b;
 }
 
 section.success a,
@@ -291,7 +294,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #CDBDAE;
+    color: #07b;
     background: #fff;
 }
 
@@ -344,7 +347,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #CDBDAE;
+    color: #07b;
 }
 
 form .row:first-child .floating-label-form-group {
