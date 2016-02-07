@@ -56,6 +56,10 @@ p.small {
 #about p{
     text-align: justify;
 }
+
+#interests p{
+    text-align: center;
+}
 /*end modified text alignment for About section*/
 
 a,
