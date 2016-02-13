@@ -43,6 +43,7 @@ p.small {
 
 /*modified text colors*/
 #portfolio>.container,
+.portfolio-modal,
 #experience>.container,
 #interests>.container,
 #status>.container,
@@ -514,4 +515,3 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-
